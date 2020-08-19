@@ -1,0 +1,11 @@
+name: ScaledMNISTNet_wDCNv2_c3-4
+arch: ScaledMNISTNet
+deform: True
+modulation: True
+min_deform_layer: 3
+epochs: 10
+optimizer: SGD
+lr: 0.01
+momentum: 0.5
+weight_decay: 0.0001
+nesterov: False
